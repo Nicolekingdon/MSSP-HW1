@@ -17,7 +17,7 @@ x1 <- c(exp(seq(3.0, 6.0, by = 0.1)) * sin(seq(3.0, 6.0, by = 0.1)))
 
 ## Q3
 tmp <- c(1:10) 
-sum1 <- sum((tmp)^3 + 4*(tmp)^2)
+sum1 <- sum(((tmp)^3) + ((4*(tmp))^2))
 
 
 ## Q4 paste function
