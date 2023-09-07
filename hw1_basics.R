@@ -16,8 +16,8 @@ v5 <- rep(tmp, length.out= 31)
 x1 <- c(exp(seq(3.0, 6.0, by = 0.1)) * sin(seq(3.0, 6.0, by = 0.1)))
 
 ## Q3
-# tmp <- 
-# sum1 <- 
+tmp <- c(1:10) 
+sum1 <- sum((tmp)^3 + 4*(tmp)^2)
 
 
 ## Q4 paste function
