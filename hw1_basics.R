@@ -5,15 +5,14 @@
 
 ### VECTORS ###
 ## Q1
-# v1 <-  # 1,2,3,...20; 1a
-# v2 <-  # 20,19,18,...1; 1b
-# v3 <-  # odd number vector; 1c
-# tmp <- 
-# v4 <-  # repeat tmp 10 times; 1d
-# v5 <-  # where there are 11 occurrences of 3, 10 occurrences of 7 and 10 occurrences of 11; 1e
+v2 <-  c(20:1)
+v3 <-  seq(1,19,2)
+tmp <- c(3, 7, 11)
+v4 <- rep(tmp, 10)
+v5 <-  rep(tmp, length.out= 31)
 
 ## Q2
-# x1 <- 
+x1 <- c(sin(x <- seq(3.0, 6.0, .1))) 
 
 ## Q3
 # tmp <- 
