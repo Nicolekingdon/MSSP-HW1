@@ -5,11 +5,12 @@
 
 ### VECTORS ###
 ## Q1
-v2 <-  c(20:1)
-v3 <-  seq(1,19,2)
+v1 <- c(1:20)
+v2 <- c(20:1)
+v3 <- seq(1,19,2)
 tmp <- c(3, 7, 11)
 v4 <- rep(tmp, 10)
-v5 <-  rep(tmp, length.out= 31)
+v5 <- rep(tmp, length.out= 31)
 
 ## Q2
 x1 <- c(sin(x <- seq(3.0, 6.0, .1))) 
