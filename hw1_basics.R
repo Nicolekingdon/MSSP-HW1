@@ -13,7 +13,8 @@ v4 <- rep(tmp, 10)
 v5 <- rep(tmp, length.out= 31)
 
 ## Q2
-x1 <- c(sin(x <- seq(3.0, 6.0, .1))) 
+x <- seq(3.0, 6.0, .1)
+x1 <- c(sin(x)) 
 
 ## Q3
 # tmp <- 
